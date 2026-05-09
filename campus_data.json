@@ -1,0 +1,8 @@
+{
+    "Main Gate": {"Library": 2, "Admin Block": 3},
+    "Library": {"Main Gate": 2, "Cafeteria": 1, "Hostel": 4},
+    "Admin Block": {"Main Gate": 3, "Cafeteria": 2, "Auditorium": 4},
+    "Cafeteria": {"Library": 1, "Admin Block": 2, "Auditorium": 3},
+    "Auditorium": {"Cafeteria": 3, "Hostel": 2},
+    "Hostel": {"Library": 4, "Auditorium": 2}
+}
